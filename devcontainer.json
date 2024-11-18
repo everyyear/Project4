@@ -1,0 +1,7 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "forwardPorts": [8080]
+    }
+}
+//docker run --rm -it -p 8080:8080 trivia_api
